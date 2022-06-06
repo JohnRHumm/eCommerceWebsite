@@ -5,30 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cara Cara</title>
+    <link rel="stylesheet" href="./styles.css"> 
 </head>
 <body>
     <header>
-        <nav> 
-            <ul>
-               <li>HOME</li>
-               <li>ABOUT</li>
-               <li>PRODUCTS</li>
-               <li>CONTACT</li>
-            </ul>
-             <p> Cara <img src= ".\assets\icons8-pottery-96.png" alt = "pottery icon"> Cara </p>
+        <div class = "layout_links_in_page">
+            <div><a href="#home">HOME</a></div>
+            <div><a href="#about"> ABOUT </a></div>
+            <div><a href="#products"> PRODUCTS </a></div>
+            <div> <a href="#contact"> CONTACT </a></div> </div>
+        </div>
+        <div class = "layout_nav_title">
+            <div>CARA</div>
+            <div><img src= ".\assets\header_icon.png" alt = "pottery icon"></div> 
+            <div>CARA</div>
+        </div>
+        <div class ='layout_find_and_cart'>
+            <form>
+                 <input type="search" name="findbox">
+                    <button>
+                         <img src= ".\assets\magglass.png" alt = "search icon">
+                    </button>
+            </form>
+        </div>
+                
+            
+                    
+           
     </header>
 
     <main>
-        <section class = "title">
+        <section class = "title" id="home">
             <h1>
-                CERMAICS CRAFTED BY HAND...
-                 <img src=".\assets\earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="hands shapping pottery">
-                ...FROM THE GROUND UP
+                <img src=".\assets\home_icon.jpg" alt="hands shapping pottery" class="title_pic">
+                <div class = "layout_home_text">
+                    <div>CERMAICS CRAFTED BY HAND...</div>
+                    <div> ...FROM THE GROUND UP</div>
+                </div>
+                
             <h1>
 
         </section>
 
-        <section class = "about">
+        <section class = "about" id="about">
             <h2>ABOUT US</h2>
             <div class="layout_about">
                 <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ex minus ipsum tempora, 
@@ -40,22 +59,47 @@
                 <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ex minus ipsum tempora, 
                     enim deserunt sequi magni sit voluptates voluptatum aut consequatur odio assumenda suscipit, 
                     nisi quia nam. Odio, deleniti.</div>
-                <div> <img src=".\assets\Vase_Dame_2048x2048.jpg" alt ="flowers in pot"> </div>
-                <div> <img src=".\assets\Cylinder_unglazed3_2048x2048.jpg" alt ="flower in pot"> </div>
+                <img src=".\assets\Vase_Dame_2048x2048.jpg" alt ="flowers in pot" id="about_pic1"> 
+                <img src=".\assets\Cylinder_unglazed3_2048x2048.jpg" alt ="flower in pot" id="about_pic2">> 
 
 
             </div>
             
         </section>
 
-        <section class = "products">
+        <section class = "products" id="products">
             <h3>OUR PRODUCTS</h3>
-            <div class="layout_products">
-                
-            </div>
+             <div class="layout_products">
+                 <div>
+                     <img src=".\assets\mundo bowls.jpg" alt ="mudno bowls">
+                     <p>MUNDO BOWLS  $48.00</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vitae neque dolorum! 
+                         Incidunt quo sequi quibusdam dolor omnis rem quos eaque laboriosam repellat laborum 
+                         ducimus eum aperiam, eligendi beatae facilis?</p>
+                     <button></button>   
+                </div>
 
+            </div>
+        </section>
+
+        <section class = "contact" id="contact">
+            <h4>CONTACT</h4>
+                <form>
+                    <label for="emailcontact"> Email: <br></label>
+                    <input type="email" id="emailbox"><br>
+                    <label for="message"> Message: <br></label>
+                    <input type="text" id="messagebox">
+                </form>
+            </h4>
+    
+        </section> 
+    
 
     </main>
+
+   
+
+
 
     <footer>
 
