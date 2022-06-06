@@ -8,123 +8,53 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-    
-    resize: both;
-}
-
-body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
-header {
+nav img
+{
+   height: 10px; 
+}
+
+.header-ul
+{
+    list-style-type: none;
     display: flex;
-    flex-flow: row nowrap;
+    flex: 1 1 auto;
     justify-content: center;
-    content: none;
-    width: 1280px;
 }
 
-header:nth-child(1){
-    width: 500px;
-    
-    
+.header-ul li:nth-child(1)
+{
+    width: 40px;
 }
 
+.header-ul li:nth-child(2)
+{
+    width: 40px;
+}
 
-.layout_links_in_page {
+.header-ul li:nth-child(3)
+{
+    width: 60px;
+}
+
+.header-ul li:nth-child(4)
+{
+    width: 60px;
+}
+
+.header-center img 
+{
+    height: 40px;
+}
+
+.header-center
+{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    width: auto;
-
-
-}
-
-.layout_nav_title {
-    display: flex;
-    flex-direction: row;
-}
-
-.layout_nav_title img  {
-    height: 3rem;
-    width: fit-content;
-}
-
-.layout_find_and_cart img {
-    width: 1rem;
-    height: 1rem;
-}
-
-h1 {
-    background-color: black;
-}
-
-.layout_home {
-    left: 5rem;
-}
-
-h1 img {
-    height: 25rem;
-    width:auto;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: flex-end;
    
 }
-.layout_about img {
-    width: 100px;     
-    
-}
-
-.title_pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-
-.layout_home_text {
-    font-size: large;
-    color: white;
-    display: flex;
-    flex: 0 1 default;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.layout_about {
-    display: flex;
-    flex-flow: row wrap;
-    flex:auto;
-
-}
-
-.layout_about :nth-child(1)
-{
-    order: 1;
-    
-}
-
-
-.layout_about :nth-child(2)
-{
-    order: 4;
-}
-.layout_about :nth-child(3)
-{
-    order: 5;
-}
-.layout_about :nth-child(4)
-{
-    order: 3;
-    
-}
-.layout_about :nth-child(5)
-{
-    order: 2;
-    
-}
-
-
-
-
