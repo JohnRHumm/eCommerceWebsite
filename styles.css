@@ -194,8 +194,44 @@ nav img
     width:auto;
 }
 
+footer {
+    background-color: #BF7631;
+    
+}
 
+#footer-container {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 125px 125px 200px 125px 125px 125px;
+    grid-template-rows: 60px 20px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    font-size:small;
+}
 
     
-    
+.f-item img {
+    height: 50px;
+    width:auto;
+} 
+
+.f-item:nth-of-type(6)
+{
+    grid-column: 1/3;
+    grid-row: 2;
+}
+
+.f-item:nth-of-type(7)
+{
+    grid-column: 3/5;
+    grid-row: 2;
+}
+
+.f-item:nth-of-type(8)
+{
+    grid-column: 6;
+    grid-row: 2;
+}
 
