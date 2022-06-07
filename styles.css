@@ -28,6 +28,15 @@ html {
     margin-bottom: 2px;
  }
 
+ .thick-line-half { 
+    border: 2px solid #000; 
+    width: 66%; 
+    margin: auto;
+    margin-top: 2px; 
+    margin-bottom: 2px;
+ }
+
+
 
 nav img
 {
@@ -138,8 +147,6 @@ nav img
     justify-items: center;
     font-size:small;
 
-   
-
 }
 
 .a-item:nth-of-type(1)
@@ -170,6 +177,25 @@ nav img
     grid-column: 2;
     grid-row: 3;
 }
+#product-container {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 350px 350px 350px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    font-size:small;
+}
+
+.p-item img {
+    height: 200px;
+    width:auto;
+}
 
 
+
+    
+    
 
